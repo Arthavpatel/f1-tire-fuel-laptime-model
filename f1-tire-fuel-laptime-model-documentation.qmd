@@ -1,0 +1,14 @@
+---
+title: "Tire-Limited Lap Time Simulation Using Real Telemetry + Physics Modeling"
+format: html
+editor: visual
+toc: true
+number-sections: true
+---
+# Abstract
+- The goal of this project is to determine whether I can accurately predict the point at which a Formula 1 car becomes tire-limited, and how lap time evolves as a function of tyre degradation, fuel load, and cornering grip thresholds.
+- To do this, I will first build a telemetry-calibrated tyre degradation model using real stint data from the FastF1 library. I will extract lap times, driver performance, and compound usage to fit a degradation curve based on lap deltas over time.
+- Next, I will simulate cornering performance by modeling maximum lateral grip using the tyre-road friction coefficient (μ), car mass, and corner radius. I will factor in fuel load reduction and its impact on car weight and load distribution.
+- Using this physics-based approach, I will build a lap time simulation engine that takes tyre compound, fuel load, and grip level as input, and produces predicted lap times and optimal stint lengths as output.
+- Finally, I will analyze the crossover point — the lap where tyre degradation begins to outweigh the lap time gains from fuel burn-off — to recommend the ideal pit stop window.
+- This project will be implemented in Python using the FastF1 library for data extraction, NumPy/SciPy for simulation logic, and Matplotlib for data visualization. It combines motorsport telemetry, physics-based modeling, and data-driven insight to simulate race stint performance under real-world conditions.
