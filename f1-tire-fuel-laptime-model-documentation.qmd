@@ -12,3 +12,8 @@ number-sections: true
 - Using this physics-based approach, I will build a lap time simulation engine that takes tyre compound, fuel load, and grip level as input, and produces predicted lap times and optimal stint lengths as output.
 - Finally, I will analyze the crossover point — the lap where tyre degradation begins to outweigh the lap time gains from fuel burn-off — to recommend the ideal pit stop window.
 - This project will be implemented in Python using the FastF1 library for data extraction, NumPy/SciPy for simulation logic, and Matplotlib for data visualization. It combines motorsport telemetry, physics-based modeling, and data-driven insight to simulate race stint performance under real-world conditions.
+
+# Phase 1: 
+- 
+
+# Phase 2:
